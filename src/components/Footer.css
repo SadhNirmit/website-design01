@@ -1,0 +1,28 @@
+footer {
+     padding-block: 80px;
+     background-color: #ebf2fa;
+}
+
+.link-col {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+@media (max-width:767px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-col  {
+        align-items: stretch;
+    }
+}

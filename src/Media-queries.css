@@ -1,0 +1,14 @@
+@media  (max-width:991px) {
+    .example-card {
+      width: calc(50% - 10px);
+      height: 180px;
+    }
+
+    .example-area  {
+        gap: 20px;
+    }
+
+    .cta-section {
+      padding-block: 80px;
+    }
+  }

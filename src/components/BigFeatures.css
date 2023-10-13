@@ -1,0 +1,30 @@
+.big-features-section{
+    padding: 30px 20px 20px 0px;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+} 
+
+#second-big-feature {
+    flex-direction: row-reverse;
+}
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width:767px) {
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+    #second-big-feature {
+        flex-direction: column;
+    }
+  }

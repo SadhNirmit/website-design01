@@ -1,0 +1,44 @@
+.features-section {
+    padding: 80px 20px 20px 0px;
+    background-image: url('https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af9951ea9b84ec337b92251_Oval2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.features-heading-text {
+  margin-bottom: 20px;
+}
+
+.features-card {
+   flex-direction: column;
+   gap: 20px;
+   max-width: 30%;
+   text-align: center;
+}
+
+.features-card img {
+    width: 60px;
+}
+
+@media (max-width:767px) {
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+  }
+
+  @media (max-width:479px) {
+    .features-card {
+        min-width: 100%;
+    }
+  }

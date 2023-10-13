@@ -1,0 +1,74 @@
+.examples-section {
+  padding: 80px 20px;
+}
+.example-header {
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.example-area {
+  justify-content: space-between;
+  margin-block: 30px;
+}
+
+.example-card {
+  width: 23%;
+  position: relative;
+  height: 300px;
+  background: #000;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48591a238eb6563b4d3581_cover_tasks.jpg");
+  background-size: cover;
+  transition: 0.2s ease-out;
+}
+
+.example-card:nth-child(2) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48581f238eb652d84d356f_cover_navigate.jpg");
+  background-size: cover;
+}
+
+.example-card:nth-child(3) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("https://assets-global.website-files.com/5b29b478056829d173e3e394/5b485751238eb68a594d3555_cover_audience.jpg");
+  background-size: cover;
+}
+
+.example-card:nth-child(4) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48587a238eb690dd4d3577_cover_about.jpg");
+  background-size: cover;
+}
+
+.example-card:hover {
+  box-shadow: 0 0 10px #888;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .example-area {
+    gap: 20px;
+  }
+  .example-card {
+    width: calc(50% - 10px);
+    height: 180px;
+  }
+}
+
+@media (max-width:767px) {
+ 
+}
+
+@media (max-width:479px) {
+  .example-card {
+    width: 100%;
+  }
+}

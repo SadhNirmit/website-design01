@@ -1,0 +1,9 @@
+.sub-footer {
+    background-color: #b9cde4;
+    padding: 20px;
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+}

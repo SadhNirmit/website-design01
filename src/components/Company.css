@@ -1,0 +1,21 @@
+.companies-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #183b56;
+    margin-top: 10px;
+}
+
+.logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    height: 46px;
+}
+
+
+/* @media  (max-width:991px) {
+   
+  } */
